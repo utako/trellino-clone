@@ -1,13 +1,17 @@
 development:
-  adapter: sqlite3
+  adapter: postgresql
   database: db/trellino_development
   host: localhost
+  username: utako
+  password:
   pool: 5
   timeout: 5000
 
 test:
-  adapter: sqlite3
+  adapter: postgresql
   database: db/trellino_test
   host: localhost
+  username: utako
+  password:
   pool: 5
   timeout: 5000
